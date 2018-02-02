@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
-    
+
     <div id="div01" class="class01 class02">
         <section id="mainSection" class="main-sec">
-            <label for="nameInput">Name: </label>
-            <!--It is not a good ideia to use "</*>" to detect closing tags-->
-            <input id="nameInput" type="text" placeholder="Your name here">
+            <div id="div">
+                <label for="nameInput">Name: </label>
+                <input id="nameInput" type="text" placeholder="Your name here">
+            </div>
         </section>
         <section id="listSection" class="list-sec">
             <ul class="my-list">
-                <li>Text01</li>
+                <li id="li01">Text01</li>
                 <li>Text02</li>
                 <li>Text03</li>
             </ul>
         </section>
     </div>
-    
+
+    <script src="index.js"></script>
+
 </body>
+
 </html>
